@@ -17,4 +17,4 @@ To create the .exe file with embedded Tesseract, you can use PyInstaller :
 ```
 
 # License
-The MIT License (MIT) 2017 - [Athitya Kumar](https://github.com/athityakumar/). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+The MIT License (MIT) 2023 - [Maxence Duboille](https://github.com/MaxDbll). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
