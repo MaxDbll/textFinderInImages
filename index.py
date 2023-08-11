@@ -1,7 +1,7 @@
 
 import sys
 import os
-import pytesseract
+import pytesseract # Tesseract OCR needs to be installed
 from PIL import Image
 from typing import List
 from rich.progress import track
