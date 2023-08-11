@@ -20,7 +20,7 @@ if not os.path.isdir(param):
     print("Le répertoire n'existe pas")
     exit()
 
-# Ask the user for a words to search separated by ;
+# Ask the user for words to search separated by ;
 wordsList: str = input("Entrez les mots à rechercher séparés par un point-virgule : ")
 # words string to list
 words: List[str] = wordsList.split(";")
