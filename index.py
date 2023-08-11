@@ -50,7 +50,7 @@ for file in track(files, description="Traitement des fichiers"):
     # Check if word is in the text
     for word in words:
         if word.lower().strip() in text.lower():
-            print("Le mot " + word + " est dans le fichier " + file)
+            print("Le mot '" + word + "' est dans le fichier " + file)
             res.append(file)
 
 # Check if there is any result
@@ -59,4 +59,4 @@ if len(res) == 0:
     exit()
 
 # Ask the user to press enter
-input("Appuyez sur entrée...")
+input("Appuyez sur entrée pour terminer...")
