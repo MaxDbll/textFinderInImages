@@ -1,6 +1,7 @@
 # Text finder in images
 
 A Python script that search for specific texts in images by directory. 
+The script uses [Tesseract](https://github.com/tesseract-ocr/tesseract) 
 
 # Usage
 
