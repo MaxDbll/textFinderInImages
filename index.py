@@ -8,10 +8,10 @@ from rich.progress import track
 
 
 def get_data_file_path(relative_path):
-    # Obtient le chemin absolu du répertoire du script en cours d'exécution
+    # Get the absolute path of the current running script directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Construit le chemin complet du fichier de données en utilisant le chemin du script et le chemin relatif
+    # Build the complete path of the data file using the script path and the relative path
     data_file_path = os.path.join(script_dir, relative_path)
 
     return data_file_path
